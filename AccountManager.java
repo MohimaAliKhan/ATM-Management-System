@@ -21,7 +21,7 @@ public class AccountManager {
 
             if (enteredAccount.equals(adminAccount) && enteredPin == pin) {
                 while (true) {
-                    System.out.println("\n\t1. Add Account!\n\t2. Exit");
+                    System.out.println("\n\t1. Add Account !\n\t2. Exit");
                     System.out.print("Enter your choice : ");
                     choice = input.nextInt();
 
